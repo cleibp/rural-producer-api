@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: rural-producer-api
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
+    envVars:
+      - key: DATABASE_HOST
+        value: ${DATABASE_HOST} # Substitua pelo seu host do PostgreSQL no Render
+      - key: DATABASE_PORT
+        value: ${DATABASE_PORT} # Substitua pela sua porta do PostgreSQL no Render
+      - key: DATABASE_USERNAME
+        value: ${DATABASE_USERNAME} # Substitua pelo seu usuário do PostgreSQL no Render
+      - key: DATABASE_PASSWORD
+        value: ${DATABASE_PASSWORD} # Substitua pela sua senha do PostgreSQL no Render
+      - key: DATABASE_NAME
+        value: ${DATABASE_NAME}   # Substitua pelo seu nome do banco de dados PostgreSQL no Render
