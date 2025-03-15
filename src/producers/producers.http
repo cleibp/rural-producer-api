@@ -1,0 +1,31 @@
+### Listar Produtores
+GET http://localhost:3000/producers
+
+### Listar Produtores/1
+GET http://localhost:3000/producers/3
+
+### Criar um novo Produtores
+POST http://localhost:3000/producers
+Content-Type: application/json
+
+  {
+      "cpfCnpj": "53975328002",
+      "name": "Ayrton Senna da Silva"
+  }
+
+
+### Criar um novo Produtores com fazenda
+POST http://localhost:3000/producers/4/farms
+Content-Type: application/json
+
+  {
+      "farmName": "Agua Bonita",
+      "city": "Matão",
+      "state": "SP",
+      "totalArea": 2,
+      "arableArea": 1,
+      "vegetationArea": 1,
+      "crops": "soja",
+      "productId": 4
+
+  }
