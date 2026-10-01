@@ -1,4 +1,4 @@
-<h1 align="center"> 🚀 Brain Agriculture - Teste Técnico v2 </h1>
+<h1 align="center"> 🚀 Brain Agriculture  </h1>
 
 ## ✍️ Descrição
 Resposta ao teste de Desenvolvedor Backend Brain Agriculture - Teste Técnico v2
