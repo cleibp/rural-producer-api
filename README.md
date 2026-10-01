@@ -1,7 +1,7 @@
 <h1 align="center"> 🚀 Brain Agriculture  </h1>
 
 ## ✍️ Descrição
-Resposta ao teste de Desenvolvedor Backend Brain Agriculture - Teste Técnico v2
+Resposta ao teste de Desenvolvedor Backend Brain Agriculture
 
 ## ✍️ Enunciado
 
@@ -104,6 +104,4 @@ Sabemos que você pode ter seu próprio estilo, mas aqui estão algumas tecnolog
 Ao concluir o desenvolvimento, suba o código-fonte para um repositório no **GitHub** (ou outro provedor de sua escolha). Certifique-se de que o repositório seja público ou que possamos acessá-lo, e nos envie o link.
 
 ---
-
-**Nota final:** Queremos que você aproveite esse desafio para mostrar suas habilidades, mas também para aprender e se divertir. Se tiver dúvidas ou precisar de alguma orientação durante o processo, estamos aqui para ajudar! Boa sorte! 🌟
 
